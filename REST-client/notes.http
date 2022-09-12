@@ -1,0 +1,21 @@
+@notesURL = http://localhost:3030
+
+GET {{notesURL}}/
+
+###
+
+GET {{notesURL}}/notes/
+
+###
+
+GET {{notesURL}}/notes/2
+
+###
+
+POST {{notesURL}}/notes/
+Content-Type: : application/json
+
+{
+    "text": "Ring mamma"
+}
+###
